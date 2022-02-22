@@ -45,7 +45,7 @@ const byemsgimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, bat) => {
-    return `MENU ✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟ 400, BATERIA %${bat}`
+    return `MENU ✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟ +400CMD, BATERIA %${bat}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -75,10 +75,10 @@ const cr = '⭕۩✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟۩⭕\n'
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
+const blockedmsg = '🚫🥷🏻 *Estimado señor(a), ha sido bloqueado por mi jefe, no me envíe más comandos si no quiere tener una visita* 🥷🏻🚫'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '🚫🥷🏻 *Estimado señor(a), ha sido bloqueado por mi jefe, no me envíe más comandos si no quiere tener una visita* 🥷🏻🚫'
+const blockedcmdmsg = '🚫 *Este comando está bloqueado, comuníquese con el propietario del bot para averiguar por que* 🚫'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
