@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["51931263982@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '51931263982' 
 // mude para seu numero
 
 const callbotmsgs = ['orion', 'brizas']
@@ -12,7 +12,7 @@ var gimagenotregister = false
 var sgooglenotregister = false
 // quando não há comando registrado o bot procura uma pesquisa no google
 
-const antinewchatmsg = 'O anti chat novo está ativado e você não é meu proprietário, logo será bloqueado'
+const antinewchatmsg = 'El nuevo anti chat está activado y no eres mi dueño, por lo que serás bloqueado'
 //mensagem do antinewchat
 
 const urlaudiomenu = 'https://b.top4top.io/m_19923zx481.mp3'
@@ -33,24 +33,24 @@ const delaygamescmd = 60
 //tempo de delay dos comandos de games (medido por segundos)
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Bienvenido Sea ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
-    return `Adeus ${numero}`
+    return `Adiós  ${numero}`
 }
 //Texto de despedidas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, bat) => {
-    return `MENU DO BRIZAS-BOT COM 434 COMANDOS, BATERIA %${bat}`
+    return `MENU ✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟ 400, BATERIA %${bat}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const titlemenumsgimg = 'BEM-VINDO'
+const titlemenumsgimg = 'BIENVENIDO'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
@@ -69,7 +69,7 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = '☄️✨𝑩𝑹⃟𝑰𝒁𝑨𝑺 𝑶⃟𝑹𝑰𝑶𝑵✨☄️\n' 
+const cr = '⭕۩✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟۩⭕\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
@@ -78,18 +78,18 @@ const prefix = '!'
 const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o pq🚫*'
+const blockedcmdmsg = '🚫🥷🏻 *Estimado señor(a), ha sido bloqueado por mi jefe, no me envíe más comandos si no quiere tener una visita* 🥷🏻🚫'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Corra membro comum, o ban estar próximo*'
+const banmsgtype = '*Corra miembro común, ban hasta próximo* 🥷🏻🥷🏻🥷🏻'
 // mensagem de ban no anti tipos de mensagem
 
 const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em rankear, listar, remover pessoas de acordo
 com a frequência de mensagens no grupo, veja abaixo os comandos para administrar as mensagens do grupo:
 
-checkativo (marcar) - lista a frequência de mensagens do membro marcado
+checkativo (marcar) - El sistema de conteo de mensajes es por grupo y consiste en jerarquizar, enumerar, eliminar personas según
 rankativo - rankea as pessoas mais ativas do grupo
 banativos (num) - remove membros com uma certa qnt de numeros de msg pra baixo
 filtroativo (num) - lista membros com uma certa qnt de numeros de msg pra baixo]
@@ -97,25 +97,25 @@ atividade - lista a atividade de todos membros do grupo
 
 Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
 
-const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensagem proibida*'
+const adminmsgtype = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
+const banmsgporn = 'Hmmm pornozinho con antiporno activado, ya sabes ELIMINACIÓN...🥷🏻🥷🏻🥷🏻'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
+const adminmsgporn = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = '*Acá está Prohibido enviar enlaces, ban hastá próximo🥷🏻🥷🏻🥷🏻...*'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link amigo... ah é tu é adm ent pode kkkk 🙃'
+const adminmsglink = 'Este es un enlace Putin...evita ser baneado🥷🏻🥷🏻🥷🏻'
 // mensagem de quando adm manda link
 
-const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
+const adminmsgpalavra = 'esto está en la lista de palabras prohibidas por el bot'
 // mensagem de quando adm manda uma palavra proibida pelo bot
 
-const banmsgpalavra = 'Palavra proibida? Já sabe né'
+const banmsgpalavra = 'Palabra prohibida!!! ya sabes bien🕵🏻🥷🏻⚔️'
 // mensagem de ban quando manda uma palavra proibida pelo bot
 
 const qnttravahardroleta = 2
@@ -125,55 +125,55 @@ const qnttravahardroleta = 2
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
 const linkimgday = 'https://i.imgur.com/RR18JiI.jpg'
-const textmsgday = 'Ohayo gozaimasu, Onii-chan 👉👈'
+const textmsgday = 'Buenos días mi Sr., hoy es un hermoso día ¿no crees?'
 // link e mensagem de bom dia
 
 const linkimgeve = 'https://i.ibb.co/bLXgcBW/lp-tarde-anime-by-hitsukinyan-db7fpqr-fullview.jpg'
-const textmsgeve = `Kon'nichiwa Onii-chan, aceite esse café ☕`
+const textmsgeve = `Buenas tardes señor, ¿cómo es la vida?`
 // link e mensagem de boa tarde
 
 const linkimgnig = 'https://i.ibb.co/VJCd34F/EKvo372-X0-AEd-Hz.jpg'
-const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
+const textmsgnig = 'Buenas noches mi Señor, mejor prepárate para el siguiente día de tu vida'
 // link e mensagem de boa noite 
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = 'Dio error, intente nuevamente :/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
+const notregister = `*Comando no registrado, escriva ${prefix}menu para ver a lista de comandos*`
 
 // MENSAGENS DE AUTOREPLY
 
 const botlindo = 'Bakaaaa 😣😣'
 const linkbotlindo = 'https://photos1.iorbix.com/00/00/00/00/02/72/43/64/C--6tZwaASQH-b.jpg'
-const botfeio = 'Tu parece um sirgueijo, um caranguejo amassado 😡'
-const cadebot = 'Me chamou onii-chan 👉👈?'
-const botfdp = 'Te foder rapaz, te deitar na porrada quando tiver dormindo'
-const botgostoso = 'Arigato go sai masu 😳👉👈'
-const botfofo = 'Arigato go sai masu 😳👉👈'
-const botbaianor = 'Convidei sua placa-mãe pra minha rede seu corno'
-const botcorno = 'Vai te foder, jogador de ff, comprador de pack do pézinho'
-const botputa = 'Senhora sua mãe 😡'
-const botgay = 'Falou o manja rola 😡'
-const botviado = 'Falou o manja rola 😡'
-const numbotfeio = 'senhora sua mãe 😡'
+const botfeio = 'Muchas gracias, querida, pero no me halagues demasiado'
+const cadebot = 'Estoy aquí Putin, solo di los comandos'
+const botfdp = 'Que falta de respeto!!! Te enseñaré buenos modales más tarde.🥷🏻🥷🏻🥷🏻'
+const botgostoso = 'Muchas gracias, lástima que no puedo decir lo mismo'
+const botfofo = 'Muchas gracias, lástima que no puedo decir lo mismo'
+const botbaianor = 'No me compares con los humanos a menos que te enseñe modales.'
+const botcorno = 'Te equivocaste humano, no soy tu tipo, simio humanizado'
+const botputa = '¿Alguna vez te has preguntado dónde está tu madre ahora?'
+const botgay = 'Las atracciones sexuales, son tan primitivas, propias de un ser humano, ya sal del closet rosquete'
+const botviado = 'Las atracciones sexuales, son tan primitivas, propias de un ser humano😡'
+const numbotfeio = 'Aparentemente alguien aquí quiere que visite su casa, nunca te haz mirado en el espejo simio'
 // KEYS
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
     wait: '⌛ Aguarde um pouco... ⌛',
-    success: '✔️ Sucesso! ✔️',
+    success: '✔️ ÉXITO! ! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ Error, se produjo un error al convertir la imagen en una pegatina ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: '❌ ¡Desafortunadamente, este comando solo está disponible para grupos, Putin! ❌',
+        ownerG: '❌ ¡Este comando solo puede usar mi jefe! ❌',
+        ownerB: '❌ ¡Este comando solo puede ser utilizado por mi jefe!  ❌',
+        admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
+        Badmin: '❌ ¡Este comando solo se puede usar cuando el bot se convierte en administrador! ❌'
     }
 }
 
@@ -183,7 +183,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=51931263982:+51 931 263 982\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
