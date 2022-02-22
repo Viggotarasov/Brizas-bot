@@ -16,7 +16,7 @@ if [ $opts = "s" ]; then
 
 clear
 echo $YELLOW"Atualizando o brizas orion, aguarde..."
-git clone https://github.com/ianmsfvenom/Brizas-bot > /dev/null 2> /dev/null
+git clone https://github.com/Viggotarasov/Brizas-bot > /dev/null 2> /dev/null
 
 cd Brizas-bot
 cp -r * ..
