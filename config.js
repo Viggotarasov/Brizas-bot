@@ -115,7 +115,7 @@ const adminmsglink = 'Este es un enlace Putin...evita ser baneado🥷🏻🥷�
 const adminmsgpalavra = 'esto está en la lista de palabras prohibidas por el bot'
 // mensagem de quando adm manda uma palavra proibida pelo bot
 
-const banmsgpalavra = 'Palabra prohibida!!! ya sabes bien🕵🏻🥷🏻⚔️'
+const banmsgpalavra = 'Palabra prohibida!!! ya sabes ELIMINACIÓN 🕵🏻🥷🏻⚔️'
 // mensagem de ban quando manda uma palavra proibida pelo bot
 
 const qnttravahardroleta = 2
@@ -129,7 +129,7 @@ const textmsgday = 'Buenos días mi Sr., hoy es un hermoso día ¿no crees?'
 // link e mensagem de bom dia
 
 const linkimgeve = 'https://i.ibb.co/bLXgcBW/lp-tarde-anime-by-hitsukinyan-db7fpqr-fullview.jpg'
-const textmsgeve = `Buenas tardes señor, ¿cómo es la vida?`
+const textmsgeve = `Buenas tardes señor, ¿como le fue hoy?`
 // link e mensagem de boa tarde
 
 const linkimgnig = 'https://i.ibb.co/VJCd34F/EKvo372-X0-AEd-Hz.jpg'
@@ -145,9 +145,9 @@ const notregister = `*Comando no registrado, escriva ${prefix}menu para ver a li
 
 // MENSAGENS DE AUTOREPLY
 
-const botlindo = 'Bakaaaa 😣😣'
+const botlindo = 'Muchas gracias, lastima que no puedo decir lo mismo de ti.'
 const linkbotlindo = 'https://photos1.iorbix.com/00/00/00/00/02/72/43/64/C--6tZwaASQH-b.jpg'
-const botfeio = 'Muchas gracias, querida, pero no me halagues demasiado'
+const botfeio = 'Aparentemente alguien aquí quiere que visite su casa.'
 const cadebot = 'Estoy aquí Putin, solo di los comandos'
 const botfdp = 'Que falta de respeto!!! Te enseñaré buenos modales más tarde.🥷🏻🥷🏻🥷🏻'
 const botgostoso = 'Muchas gracias, lástima que no puedo decir lo mismo'
@@ -157,13 +157,13 @@ const botcorno = 'Te equivocaste humano, no soy tu tipo, simio humanizado'
 const botputa = '¿Alguna vez te has preguntado dónde está tu madre ahora?'
 const botgay = 'Las atracciones sexuales, son tan primitivas, propias de un ser humano, ya sal del closet rosquete'
 const botviado = 'Las atracciones sexuales, son tan primitivas, propias de un ser humano😡'
-const numbotfeio = 'Aparentemente alguien aquí quiere que visite su casa, nunca te haz mirado en el espejo simio'
+const numbotfeio = 'Aparentemente alguien aquí quiere que visite su casa, nunca te haz mirado en el espejo simio!!!'
 // KEYS
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
-    success: '✔️ ÉXITO! ! ✔️',
+    wait: '⌛ Aguarde um poco... ⌛',
+    success: '✔️ ÉXITO! ✔️',
     error: {
         stick: '❌ Error, se produjo un error al convertir la imagen en una pegatina ❌',
         Iv: '❌ Link inválido ❌'
@@ -171,7 +171,7 @@ let mess = {
     only: {
         group: '❌ ¡Desafortunadamente, este comando solo está disponible para grupos, Putin! ❌',
         ownerG: '❌ ¡Este comando solo puede usar mi jefe! ❌',
-        ownerB: '❌ ¡Este comando solo puede ser utilizado por mi jefe!  ❌',
+        ownerB: '❌ ¡Este comando solo puede ser usado por mi jefe!  ❌',
         admin: '❌ SILENCIO MIEMBRO COMÚN NO TIENE MORAL PARA USAR ESTE COMANDO ❌',
         Badmin: '❌ ¡Este comando solo se puede usar cuando el bot se convierte en administrador! ❌'
     }
