@@ -202,7 +202,7 @@ return `
 ┃ ${p}beatiful
 ┃ ${p}affect
 ┃ ${p}ad
-┣━━💥 𝙍𝙐𝙇𝙀𝙏𝘼 𝙍𝙐𝙎𝙎𝘼 💥━━╮
+┣━━💥 𝙍𝙐𝙇𝙀𝙏𝘼 𝙍𝙐𝙎𝘼 💥━━╮
 ┃ ${p}helproleta
 ┃ ${p}roletarussahard
 ┃ ${p}roletarussamed
