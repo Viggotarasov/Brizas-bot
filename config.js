@@ -72,7 +72,7 @@ const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
 const cr = '⭕۩✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟۩⭕\n' 
 // texto do simbolo de verificado
 
-const prefix = '🐉'
+const prefix = '%'
 // prefixo
 
 const blockedmsg = '🚫🥷🏻 *Estimado señor(a), ha sido bloqueado por mi jefe, no me envíe más comandos si no quiere tener una visita* 🥷🏻🚫'
