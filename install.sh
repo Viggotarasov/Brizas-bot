@@ -7,7 +7,7 @@ GREEN="\033[1;32m"
 RED='\033[1;31m'
 NC='\033[0m'
 
-echo $YELLOW"[$RED!$YELLOW] Eu vou instalar as dependências essenciais pro bot funcinar você só concorda com os programas que vou instalar blz? [s/n]"
+echo $YELLOW"[$RED!$YELLOW] voy a instalar las dependencias esenciales para que funcione el bot solo estas de acuerdo con los programas que voy a instalar blz? [s/n]"
 read inp
 if [ "$inp" = "s" ]; then
     pkg update
@@ -23,10 +23,10 @@ if [ "$inp" = "s" ]; then
     pkg install imagemagick 
     npm install
     npm install pm2 -g
-    echo $GREEN"Hmmm tudo certo pode dar npm start, escanear o código e se divirta com o bot :)"
+    echo $GREEN"Hmmm, está bien, puedes dar inicio a npm, escanear el código y divertirte con el bot :)"
 fi
 if [ "$inp" = "n" ]; then
-    echo $RED"Jae então, se divirta tentando descobrir as dependências sozinho e manualmente :)"
+    echo $RED"Jae entonces, diviértete tratando de descubrir las dependencias tú mismo y manualmente. :)"
     exit
 fi
 
