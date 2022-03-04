@@ -9,7 +9,7 @@ GREEN="\033[1;32m"
 RED='\033[1;31m'
 NC='\033[0m'
 
-echo $YELLOW"Você tem certeza que deseja atualizar o brizas orion? [s/n]"
+echo $YELLOW"Estas seguro que quieres actualizar brizas orion? [s/n]"
 read -p "> " opts
 
 if [ $opts = "s" ]; then
