@@ -1,22 +1,22 @@
 const ownerNumber = ["51931263982@s.whatsapp.net"] 
-// mude somente o numero e não tire o @s.whatsapp.net
+// cambie solo el número y no elimine el @s.whatsapp.net
 
 const OriginalOwner = '51931263982' 
-// mude para seu numero
+// cambiar a su número
 
 const callbotmsgs = ['orion', 'brizas']
 
 var gimagenotregister = false
-// quando não há comando registrado o bot procura no google image
+// cuando no hay ningún comando registrado el bot busca en google image
 
 var sgooglenotregister = false
-// quando não há comando registrado o bot procura uma pesquisa no google
+// cuando no hay ningún comando registrado el bot busca una búsqueda en google
 
 const antinewchatmsg = 'El nuevo anti chat está activado y no eres mi dueño, por lo que serás bloqueado'
-//mensagem do antinewchat
+//mensaje anti chat nuevo
 
 const urlaudiomenu = 'https://b.top4top.io/m_19923zx481.mp3'
-// link direto da url do audio
+// enlace de URL de audio directo
 
 const antipvmsg = '*🚫 PV BLOQUEADO 🚫*'
 //mensagem do antipv
@@ -36,41 +36,40 @@ const msgwelcomeimg = (numero, groupname) => {
     return `Bienvenido Sea ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
-//Obs: não coloque o texto longo para a imagem não sumir
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const byemsgimg = (numero, groupname) => {
     return `Adiós  ${numero}`
 }
-//Texto de despedidas na imagem quando welcome esta ativado
-//Obs: não coloque o texto longo para a imagem não sumir
-
+//Texto de despedida en la imagen cuando se activa la bienvenida
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 const menumsgimg = (numero, groupname, bat) => {
-    return `MENU ✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟ +400CMD, BATERIA %${bat}`
+    return `MENU KANIEL OUTIS +400CMD, BATERIA %${bat}`
 }
-//Texto no menu da imagem quando welcome esta ativado
-//Obs: não coloque o texto longo para a imagem não sumir
+//Texto en el menú de la imagen cuando la bienvenida está habilitada
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const titlemenumsgimg = 'BIENVENIDO'
 //Título no menu da imagem quando welcome esta ativado
-//Obs: não coloque o texto longo para a imagem não sumir
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const backgroundmenuimg = `https://i.imgur.com/tVKFNFk.png`
 //Link direto da imagem de fundo TAMANHO RECOMENDADO: 1280x720
-//Obs: não coloque o texto longo para a imagem não sumir
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const backgroundwelcomeimg = `https://i.imgur.com/tVKFNFk.png`
 //Link direto da imagem de fundo da boas-vindas TAMANHO RECOMENDADO: 1280x720
-//Obs: não coloque o texto longo para a imagem não sumir
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 //Link direto da imagem de fundo das despedidas TAMANHO RECOMENDADO: 1280x720
-//Obs: não coloque o texto longo para a imagem não sumir
+//Obs: no pongas el texto largo para que no desaparezca la imagen
 
 const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
-// sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
+// su clave imgbb para activar antiporn y algunos comandos más que necesitan para descargar la imagen
 
 const cr = '⭕۩✟𝐊𝐀𝐍𝐈𝐄𝐋 𝐎𝐔𝐓𝐈𝐒✟۩⭕\n' 
-// texto do simbolo de verificado
+// comprobar el texto del símbolo
 
 const prefix = '!'
 // prefixo
@@ -86,60 +85,59 @@ const blockedcmdmsg = '🚫 *Este comando está bloqueado, comuníquese con el p
 const banmsgtype = '*Corra miembro común, ban hasta próximo* 🥷🏻🥷🏻🥷🏻'
 // mensagem de ban no anti tipos de mensagem
 
-const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em rankear, listar, remover pessoas de acordo
-com a frequência de mensagens no grupo, veja abaixo os comandos para administrar as mensagens do grupo:
+const ativohelp = `El sistema de conteo de mensajes es por grupo y consiste en jerarquizar, enumerar, eliminar personas según
+con la frecuencia de los mensajes en el grupo, vea a continuación los comandos para administrar los mensajes del grupo:
 
 checkativo (marcar) - El sistema de conteo de mensajes es por grupo y consiste en jerarquizar, enumerar, eliminar personas según
-rankativo - rankea as pessoas mais ativas do grupo
-banativos (num) - remove membros com uma certa qnt de numeros de msg pra baixo
-filtroativo (num) - lista membros com uma certa qnt de numeros de msg pra baixo]
-atividade - lista a atividade de todos membros do grupo
+rankativo - clasificar a las personas más activas del grupo
+banativos (num) - eliminar miembros con una cierta cantidad de números de mensajes hacia abajo
+filtroativo (num) - enumerar miembros con una cierta cantidad de números de mensajes hacia abajo]
+atividade - enumera la actividad de todos los miembros del grupo
 
-Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
+Obs: El número de mensajes puede ser inexacto debido a que el bot lo cuenta.`
 
 const adminmsgtype = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
-// mensagem de quando adm manda tipos de mensagens proibidas
+// mensaje cuando adm envía tipos de mensajes prohibidos
 
 const banmsgporn = 'Hmmm pornozinho con antiporno activado, ya sabes ELIMINACIÓN...🥷🏻🥷🏻🥷🏻'
-// mensagem de ban no antiporn
+// mensaje de prohibición en antiporno
 
 const adminmsgporn = '*Bueno, bueno, parece que alguien envió un mensaje prohibido, hora del castigo* 🩸🥷🏻🥷🏻🥷🏻🩸'
-// mensagem de quando adm manda porn com antiporn ativado
+// mensaje cuando el administrador envía pornografía con antiporn habilitado
 
 const banmsglink = '*Acá está Prohibido enviar enlaces, ban hastá próximo🥷🏻🥷🏻🥷🏻...*'
-// mensagem de ban no antilink
+//mensaje de prohibición en antienlace
 
-const adminmsglink = 'Este es un enlace Putin...evita ser baneado🥷🏻🥷🏻🥷🏻'
-// mensagem de quando adm manda link
+const adminmsglink = 'Este es un enlace Putin...evita ser castigado 🥷🏻🥷🏻🥷🏻'
+// mensaje cuando el administrador envía el enlace
 
 const adminmsgpalavra = 'esto está en la lista de palabras prohibidas por el bot'
-// mensagem de quando adm manda uma palavra proibida pelo bot
+// mensaje cuando adm envía una palabra prohibida por el bot
 
 const banmsgpalavra = 'Palabra prohibida!!! ya sabes ELIMINACIÓN 🕵🏻🥷🏻⚔️'
-// mensagem de ban quando manda uma palavra proibida pelo bot
+// mensaje de prohibición cuando envía una palabra prohibida por el bot
 
 const qnttravahardroleta = 2
-// quantidade de travas que mandam no roleta russa hard
-// Obs: O valor é multiplicado por 12 ent tenha cuidado
+// número de bloqueos en la ruleta rusa dura
+// Obs: El valor se multiplica por 12 así que ten cuidado
 
-// MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
+// MENSAJES DE BUENOS DIAS BUENAS TARDES Y BUENAS NOCHES
 
 const linkimgday = 'https://i.imgur.com/RR18JiI.jpg'
 const textmsgday = 'Buenos días mi Sr., hoy es un hermoso día ¿no crees?'
-// link e mensagem de bom dia
+// buenos dias enlace y mensaje
 
 const linkimgeve = 'https://i.ibb.co/bLXgcBW/lp-tarde-anime-by-hitsukinyan-db7fpqr-fullview.jpg'
 const textmsgeve = `Buenas tardes señor, ¿como le fue hoy?`
-// link e mensagem de boa tarde
+// Buenas tardes link y mensaje
 
 const linkimgnig = 'https://i.ibb.co/VJCd34F/EKvo372-X0-AEd-Hz.jpg'
 const textmsgnig = 'Buenas noches mi Señor, mejor prepárate para el siguiente día de tu vida'
-// link e mensagem de boa noite 
-
-// MENSAGENS DE ERRO
+// buenas noches mensaje y enlace
+// ERROR DE MENSAJES
 
 const msgerr = 'Dio error, intente nuevamente :/'
-// mensagem de erro
+// mensaje de error
 
 const notregister = `*Comando no registrado, escriva ${prefix}menu para ver a lista de comandos*`
 
@@ -177,7 +175,7 @@ let mess = {
     }
 }
 
-// CONTATO DO CRIADOR
+// CONTACTO CREADOR
 
 const vcard = 'BEGIN:VCARD\n' 
 + 'VERSION:3.0\n' 
@@ -185,54 +183,54 @@ const vcard = 'BEGIN:VCARD\n'
 + 'ORG:Ian;\n' 
 + 'TEL;type=CELL;type=VOICE;waid=51931263982:+51 931 263 982\n' 
 + 'END:VCARD'
-//vcard do propietário, mude os numeros de acordo com o formato que
-//ele corresponde
+//vcard del propietario, cambie los números de acuerdo con el formato que
+//coincide
 
-const gpvotohelp = `O sistema de voto gp consiste no sistema normal de voto, porém feito somente para grupos
-veja abaixo os comandos e suas funções a seguir:
+const gpvotohelp = `El sistema de votación gp consiste en el sistema de votación normal, pero hecho solo para grupos
+Vea los comandos y sus funciones a continuación:
 
 ${prefix}gpinitvoto
-${prefix}gpvotoinit - Inicia a votação em grupo
-Ex: ${prefix}gpvotoinit tema | opção 1 | opção 2
-Obs: pode acrescentar quantas opções quiser
+${prefix}gpvotoinit - Empezar a votar en grupo
+Ex: ${prefix}gpvotoinit tema | opción 1 | opcion 2
+Obs: Puedes añadir tantas opciones como quieras.
 
 ${prefix}gpclearvoto
-${prefix}gpvotoclear - Limpa todos os votos
+${prefix}gpvotoclear - Borrar todos los votos
 
 ${prefix}gpvotostatus
-${prefix}gpstatusvoto - Vê o status atual do voto
+${prefix}gpstatusvoto - Ver el estado actual de la votación
 
-${prefix}gpvoto - Vota em uma opção
-Ex: ${prefix}gpvoto opção1
+${prefix}gpvoto - Vota por una opción
+Ex: ${prefix}gpvoto opción1
 
 ${prefix}gpvotofinish
-${prefix}gpfinishvoto - Encerra a votação
+${prefix}gpfinishvoto - cerrar la votacion
 
 ${prefix}gpbroadvoto
-${prefix}gpvotobroad - Faz uma transmissão da votação para todos membros do grupo`
+${prefix}gpvotobroad - Difundir el voto a todos los miembros del grupo.`
 
-const votohelp = `O sistema de voto consistem em todos os usuários do bot poderem votar e para ter uma boa
-experiência, há comandos para administrar essa votação. Veja abaixo os comandos e suas funções a seguir:
+const votohelp = `El sistema de votación consiste en que todos los usuarios del bot puedan votar y tener una buena
+experiencia, hay comandos para administrar esta encuesta. Vea los comandos y sus funciones a continuación:
 
 ${prefix}initvoto
-${prefix}votoinit - Inicia a votação geral
-Ex: ${prefix}votoinit tema | opção 1 | opção 2
-Obs: pode acrescentar quantas opções quiser
+${prefix}votoinit - Comienza la votación general
+Ex: ${prefix}votoinit tema | opción 1 |opcion 2
+Obs: Puedes añadir tantas opciones como quieras.
 
 ${prefix}clearvoto
-${prefix}votoclear - Limpa todos os votos
+${prefix}votoclear - Borrar todos los votos
 
 ${prefix}votostatus
-${prefix}statusvoto - Vê o status atual do voto
+${prefix}statusvoto - Ver el estado actual de la votación
 
-${prefix}voto - Vota em uma opção
-Ex: ${prefix}voto opção1
+${prefix}voto - Vota por una opción
+Ex: ${prefix}voto opción1
 
 ${prefix}votofinish
-${prefix}finishvoto - Encerra a votação
+${prefix}finishvoto - cerrar la votacion
 
 ${prefix}broadvoto
-${prefix}votobroad - Faz uma transmissão da votação para todos que usam o bot`
+${prefix}votobroad - Transmita el voto a todos los que usan el bot`
 
 // Nem ouse mexer aqui se n quiser que de erro
 exports.delaygamescmd = delaygamescmd
