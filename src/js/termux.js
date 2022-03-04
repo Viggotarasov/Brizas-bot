@@ -1,24 +1,24 @@
 const termux = termux => {
-return `Comandos Básico para se usar no termux ou qualquer terminal que simula o linux
+return `Comandos básicos para usar en termux o cualquier terminal que simule linux
 
-cd = abrir diretórios(pastas)
+cd = directorios abiertos(pastas)
 exemplo = cd /sdcard/
 
-ls = lista os arquivos e diretórios presentes
+ls = enumerar los archivos y directorios presentes
 
-mv = move arquivo ou diretório para outro local
+mv = mover archivo o directorio a otra ubicación
 exemplo = mv teste.sh(arquivo) $HOME
-Obs: o comando $HOME é a pasta home do termux(onde você inicia)
+Obs: o comando $HOME es la carpeta de inicio de termux (donde comienzas)
 
-cp = copia arquivos e diretório para outro local
+cp = copiar archivos y directorios a otra ubicación
 exemplo = cp -r teste(diretório) $HOME 
-Obs: o -r depois do cp é um argumento foi usado pra mover o diretório com mais seu conteudo para outro local
+Obs: o -r después de que el cp es un argumento, se usó para mover el directorio con más de su contenido a otra ubicación
 
-o que é argumentos = argumentos são opções que usa no terminal para poder executar o comando de uma forma diferente
+que son argumentos = los argumentos son opciones que usas en la terminal para poder ejecutar el comando de otra forma
 
-rm = remove arquivos e diretórios
+rm = eliminar archivos y directorios
 exemplo = rm -r -f teste(diretório)
-Obs = A mesma coisa do comando cp, mas o -f se usa pra caso o arquivo ou diretório tenha dificuldade de ser excluido o -f força a exclusão dele`
+Obs = Lo mismo que el comando cp, pero el -f se usa en caso de que el archivo o directorio sea difícil de eliminar, el -f obliga a eliminarlo`
 }
 
 exports.termux = termux
