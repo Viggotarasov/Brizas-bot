@@ -1,11 +1,11 @@
-const helproleta = `Roleta russa consiste em escolhe um membro aleatório do grupo e de acordo com a dificuldade, o membro escolhido sofrerá as consequências.
-É bem fácil jogar, basta apenas dar o comando que começa em automático. Olhe abaixo as consequências de cada dificuldade
+const helproleta = `La Ruleta Rusa consiste en elegir un miembro del grupo al azar y de acuerdo a la dificultad, el miembro elegido sufrirá las consecuencias.
+Es muy fácil de jugar, solo dale el comando que se inicia en automático. Vea a continuación las consecuencias de cada dificultad
 
-roletarussapac - não faz nada, apenas diversão
-roletarussapac - bane o membro escolhido
-roletarussamed - bane e bloqueia o membro escolhido
-roletarussahard - bane, bloqueia e trava o membro escolhido
+roletarussapac - no hace más que divertirse
+roletarussapac - prohibir al miembro elegido
+roletarussamed - prohibir y bloquear al miembro elegido
+roletarussahard - prohibir, bloquear y bloquear al miembro elegido
 
-Obs: os efeitos são reversíveis, para desbloquear o membro basta apenas dar unblock (número sem espaço, traço ou +)`
+Obs: los efectos son reversibles, para desbloquear el miembro solo desbloquee (número sin espacio, guión o +)`
 
 exports.helproleta = helproleta
