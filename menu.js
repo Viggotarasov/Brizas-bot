@@ -9,7 +9,6 @@ return `
 ┃ ${wame}                                       
 ┃
 ┣━━━⚡ 𝙋𝙍𝙄𝙉𝘾𝙄𝙋𝘼𝙇  ⚡━━━╮
-┃ ${p}brizasapi
 ┃ ${p}listblockcmd
 ┃ ${p}listpalavra
 ┃ ${p}info
@@ -17,7 +16,6 @@ return `
 ┃ ${p}delete
 ┃ ${p}ajuda
 ┃ ${p}help
-┃ ${p}oficialcriador
 ┃ ${p}comandos
 ┃ ${p}menulite
 ┃ ${p}menu
@@ -274,12 +272,9 @@ return `
 ┃ ${p}blurimg (rad) (sig) (resp img)
 ┣━━━━🔍 𝙋𝙀𝙎𝙌𝙐𝙄𝙎𝘼 🔎━━━╮
 ┃ ${p}pensador (autor)
-┃ ${p}xvideos (name)
 ┃ ${p}thumbzilla (name)
 ┃ ${p}xanimu (name)
-┃ ${p}xnxx (name)
 ┃ ${p}fapster (name)
-┃ ${p}pornhub (name)
 ┃ ${p}fortniteshop
 ┃ ${p}imagesearch (resp img)
 ┃ ${p}map (name)
@@ -324,28 +319,6 @@ return `
 ┃ ${p}pascoa (ano)
 ┃ ${p}natal (ano)
 ┃ ${p}anonovo
-┣━━━━😈🔞🔥🔞🔥🔞😈━━━━╮
-┃ ${p}packmega18
-┃ ${p}nhentai ❮code❯
-┃ ${p}randomhentai
-┃ ${p}nsfwblowjob
-┃ ${p}nsfwneko
-┃ ${p}nsfwtrap
-┃ ${p}nsfw (1 or 0)
-┃ ${p}anal
-┃ ${p}cum
-┃ ${p}yuri
-┃ ${p}hentainekogif
-┃ ${p}futanari
-┃ ${p}nsfwfeet
-┃ ${p}nsfwfeetgif
-┃ ${p}girlmasturbate
-┃ ${p}girlmasturbategif
-┃ ${p}lesbian
-┃ ${p}eroyuri
-┃ ${p}eroneko
-┃ ${p}erokitsune
-┃ ${p}spank
 ┣━━━━🗣️ 𝙑𝙊𝙕 𝙈𝙊𝘿 🗣️━━━━╮
 ┃ ${p}esquilo (resp audio)
 ┃ ${p}grave (resp audio)
