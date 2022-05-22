@@ -144,7 +144,7 @@ const notregister = `*Comando no registrado, escriva ${prefix}menu para ver a li
 // MENSAGENS DE AUTOREPLY
 
 const botlindo = 'Muchas gracias, lastima que no puedo decir lo mismo de ti.'
-const linkbotlindo = 'https://photos1.iorbix.com/00/00/00/00/02/72/43/64/C--6tZwaASQH-b.jpg'
+const linkbotlindo = 'https://i.imgflip.com/3ueiwm.jpg'
 const botfeio = 'Aparentemente alguien aquí quiere que visite su casa.'
 const cadebot = 'Estoy aquí Putin, solo di los comandos'
 const botfdp = 'Que falta de respeto!!! Te enseñaré buenos modales más tarde.🥷🏻🥷🏻🥷🏻'
